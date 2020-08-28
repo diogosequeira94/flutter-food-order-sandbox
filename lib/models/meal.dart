@@ -7,9 +7,9 @@ enum Complexity{
 }
 
 enum Cost {
-  Cheap,
-  Fair,
-  Expensive
+  CHEAP,
+  FAIR,
+  EXPENSIVE
 }
 
 class Meal {
@@ -24,6 +24,8 @@ class Meal {
   final bool isLactoseFree;
   final bool isVegan;
   final bool isVegetarian;
+  final Complexity complexity;
+  final Cost cost;
 
  const Meal({
   @required this.id,
@@ -37,6 +39,8 @@ class Meal {
   @required this.isLactoseFree,
   @required this.isVegan,
   @required this.isVegetarian,
+  @required this.complexity,
+  @required this.cost
   });
 
 }
