@@ -15,7 +15,7 @@ class MainDrawer extends StatelessWidget {
           fontSize: 20,
         ),
       ),
-      onTap: () => Navigator.of(ctx).pushNamed(route),
+      onTap: () => Navigator.of(ctx).pushReplacementNamed(route),
     );
   }
 
