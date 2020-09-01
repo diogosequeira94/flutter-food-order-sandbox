@@ -40,8 +40,9 @@ class MealItem extends StatelessWidget {
                     fit: BoxFit.cover,),
                 ),
                 Positioned(
-                  bottom: 20,
-                  right: 10,
+                  bottom: 5,
+                  right: 0,
+                  left: 0,
                   child: Container(
                     width: 300,
                     color: Colors.black54,
@@ -56,6 +57,7 @@ class MealItem extends StatelessWidget {
                     ),
                     softWrap: true,
                     overflow: TextOverflow.fade,
+                      textAlign: TextAlign.center,
                     ),
                   ),
                 ),
