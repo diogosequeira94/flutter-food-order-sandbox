@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_routes_course/components/main_drawer.dart';
 import 'package:flutter_routes_course/screens/favourites_screen.dart';
-import 'categories_screen.dart';
 import 'categories_screen.dart';
 
 class TabsScreen extends StatefulWidget {
@@ -32,6 +32,7 @@ class _TabsScreenState extends State<TabsScreen> {
         centerTitle: true,
         title: Text(_screens[_selectedScreenIndex]['title']),
       ),
+      drawer: MainDrawer(),
       body: _screens[_selectedScreenIndex]['screen'],
       bottomNavigationBar: BottomNavigationBar(
           onTap: _selectScreen,
