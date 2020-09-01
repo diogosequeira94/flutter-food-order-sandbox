@@ -20,7 +20,17 @@ class CategoryItem extends StatelessWidget {
       onTap: () => _selectCategory(context),
       child: Container(
         padding: EdgeInsets.all(15.0),
-        child: Text(category.title),
+        child:
+        Column(
+          children: <Widget>[
+            Text(category.title),
+            SizedBox(height: 10.0),
+            Image.network(category.imageUrl,
+                height: 50,
+                width: double.infinity,
+                fit: BoxFit.contain)
+          ],
+        ),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10.0),
           gradient: LinearGradient(

@@ -5,53 +5,63 @@ import '../models/meal.dart';
 const DUMMY_CATEGORIES = const [
   Category(
     id: 'c1',
-    title: 'Italiano',
+    title: 'Italian',
     color: Colors.purple,
+    imageUrl: 'https://cdn2.iconfinder.com/data/icons/food-items-4/131/38-512.png',
   ),
   Category(
     id: 'c2',
-    title: 'Rápido & Fácil',
+    title: 'Fast & Easy',
     color: Colors.red,
+    imageUrl: 'https://cdn2.iconfinder.com/data/icons/food-items-4/131/38-512.png',
   ),
   Category(
     id: 'c3',
     title: 'Hamburgers',
     color: Colors.orange,
+    imageUrl: 'https://cdn2.iconfinder.com/data/icons/food-items-4/131/38-512.png',
   ),
   Category(
     id: 'c4',
-    title: 'Alemã',
+    title: 'German',
     color: Colors.amber,
+    imageUrl: 'https://cdn2.iconfinder.com/data/icons/food-items-4/131/38-512.png',
   ),
   Category(
     id: 'c5',
-    title: 'Leve & Saudável',
+    title: 'Light & Healthy',
     color: Colors.amber,
+    imageUrl: 'https://cdn2.iconfinder.com/data/icons/food-items-4/131/38-512.png',
   ),
   Category(
     id: 'c6',
-    title: 'Exótica',
+    title: 'Exotic',
     color: Colors.green,
+    imageUrl: 'https://cdn2.iconfinder.com/data/icons/food-items-4/131/38-512.png',
   ),
   Category(
     id: 'c7',
-    title: 'Café da Manhã',
+    title: 'Breakfast',
     color: Colors.lightBlue,
+    imageUrl: 'https://cdn2.iconfinder.com/data/icons/food-items-4/131/38-512.png',
   ),
   Category(
     id: 'c8',
-    title: 'Asiática',
+    title: 'Asian',
     color: Colors.lightGreen,
+    imageUrl: 'https://cdn2.iconfinder.com/data/icons/food-items-4/131/38-512.png',
   ),
   Category(
     id: 'c9',
-    title: 'Francesa',
+    title: 'French',
     color: Colors.pink,
+    imageUrl: 'https://cdn2.iconfinder.com/data/icons/food-items-4/131/38-512.png',
   ),
   Category(
     id: 'c10',
-    title: 'Verão',
+    title: 'Summer Delights',
     color: Colors.teal,
+    imageUrl: 'https://cdn2.iconfinder.com/data/icons/food-items-4/131/38-512.png',
   ),
 ];
 
